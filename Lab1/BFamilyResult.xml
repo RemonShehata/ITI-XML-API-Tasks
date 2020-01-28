@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Father>
+	<Personal FAge="51" FName="Mohamad">Hello Mohamed</Personal>
+	<Childern>
+		<Child CAge="20" CName="Ahmed">Hello Ahmed</Child>
+	</Childern>
+</Father>
