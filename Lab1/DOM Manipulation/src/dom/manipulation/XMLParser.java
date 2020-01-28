@@ -35,13 +35,14 @@ public class XMLParser {
             System.out.println("Root element name :- " + document.getDocumentElement().getNodeName());
 
             NodeList nodelist = document.getElementsByTagName("contacts");
-
+            
             for (int i = 0; i < nodelist.getLength(); i++) {
                 Node node = nodelist.item(i);
 
                 System.out.println("\t" + node.getNodeName());
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) node;
+                    element.setAttribute("FirstName", "Remon");
                     System.out.println("Attribute : " + element.getAttribute("gender"));
                     System.out.println("First Name : " + element.getElementsByTagName("FirstName").item(0).getTextContent());
                     System.out.println("Last Name :" + element.getElementsByTagName("LastName").item(0).getTextContent());
