@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Person>
+    <Name>Remon</Name>
+    <Address>
+        <Number>123</Number>
+        <Street>haram</Street>
+    </Address>
+    <Address>
+        <Number>456</Number>
+        <Street>HARAM</Street>
+    </Address>
+    <Address>
+        <Number>1</Number>
+        <Street>10th of ramadan</Street>
+    </Address>
+</Person>
